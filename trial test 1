@@ -1,0 +1,13 @@
+#a program that counts the number of vowels in a string
+text = input("Text: ")
+
+count = 0
+
+for character in text:
+
+    if(character in "aAeEiIoOuU"):
+
+        count += 1
+
+        print("count:" , count)
+        
